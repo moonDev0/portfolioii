@@ -224,11 +224,11 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'SME APP',
+    description: `A typescript application that allows users to pay bills and vouchers`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'Reactjs',
         color: 'blue-text-gradient',
       },
       {
@@ -241,8 +241,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/moondev0',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/moondev0/vtu',
+    demo: 'https://github.com/moondev0/vtu',
   },
   {
     id: 'project-5',
