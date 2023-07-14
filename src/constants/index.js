@@ -49,10 +49,10 @@ const services = [
     title: 'Frontend Developer',
     icon: frontend,
   },
-  // {
-  //   title: 'Ba',
-  //   icon: backend,
-  // },
+   {
+    title: 'Backend Development',
+    icon: backend,
+  },
   // {
   //   title: 'UI/UX Design',
   //   icon: ux,
@@ -92,10 +92,10 @@ const technologies = [
     name: 'Tailwind CSS',
     icon: tailwind,
   },
-  // {
-  //   name: 'Node JS',
-  //   icon: nodejs,
-  // },
+  {
+    name: 'Node JS',
+    icon: nodejs,
+  },
   // {
   //   name: 'Rails',
   //   icon: rubyrails,
@@ -145,13 +145,13 @@ const experiences = [
     date: 'jan 2023 - March 2023',
   },
  
-  // {
-  //   title: 'Full Stack Developer',
-  //   company_name: 'Diversity Cyber Council',
-  //   icon: dcc,
-  //   iconBg: '#333333',
-  //   date: 'Sep 2022 - Present',
-  // },
+  {
+    title: 'Full Stack Developer',
+    company_name: 'Hijaz consult',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'April 2023 - june 2023',
+  },
 ];
 
 const projects = [
@@ -246,12 +246,12 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'DASHBOARD',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'This is a demo user/Admin Dashboard.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Reactjs',
         color: 'blue-text-gradient',
       },
       {
@@ -264,8 +264,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/moondev0',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/dashboard',
+    demo: 'https://github.com/dashboard',
   },
 ];
 
