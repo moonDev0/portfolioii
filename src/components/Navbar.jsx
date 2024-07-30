@@ -71,9 +71,9 @@ const Navbar = () => {
                   <li
                     id={nav.id}
                     key={nav.id}
-                    className={`${
+                    className={` !ml-20  !text-[20px] ${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[20px] font-bold font-arenq 
+                    } text-[10px] font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
